@@ -1,0 +1,8 @@
+.info-tag {
+    width: 4rem;
+    display: inline-block;
+}
+
+span.btn {
+    text-transform: none;
+}

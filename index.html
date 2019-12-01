@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contact Management</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <nav class="light-blue">
+    <div class="nav-wrapper container">
+      <a class="brand-logo" href="#!">Contact Management</a>
+      <ul class="right">
+        <li><a href="index.html" class="btn indigo">Index</a></li>
+        <li><a href="new.html" class="btn indigo">New</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Contact list</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody id="contacts"></tbody>
+    </table>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/common.js"></script>
+</body>
+
+</html>
